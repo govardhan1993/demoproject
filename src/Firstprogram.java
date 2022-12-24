@@ -10,7 +10,11 @@ public class Firstprogram {
 		
 		list.add("Govardhan");
 		list.add("jadhav");
-		System.out.println(list);
+		
+		for(String l:list)
+		{
+			System.out.println(l);
+		}
 	}
 
 }
